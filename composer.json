@@ -1,0 +1,19 @@
+{
+    "name": "progi/curl",
+    "description": "excample curl",
+    "authors": [
+        {
+            "name": "Slava Kovalyov",
+            "email": "dev.vyacheslav@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr": {
+            "app\\": "app/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
