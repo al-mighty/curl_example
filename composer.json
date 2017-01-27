@@ -7,10 +7,14 @@
             "email": "dev.vyacheslav@gmail.com"
         }
     ],
-    "require": {},
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "coderockr/php-query": "dev-master"
+    },
     "autoload": {
-        "psr": {
-            "app\\": "app/"
+        "psr-4": {
+            "App\\": "App/"
         },
         "files": [
             "helpers.php"
